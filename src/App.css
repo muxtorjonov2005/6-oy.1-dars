@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Manrope';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.12px;
+  color: #000;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.cantainer {
+  margin: auto;
+  max-width: 1202px;
+}
+
+header {
+  margin: auto;
+  width: 1202px;
+  display: flex;
+  align-items: center;
+  gap: 290px;
+  margin-bottom: 137px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.76px;
+}
+
+#logotip {
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+li {
+  text-decoration: none;
+}
+li a {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sign {
+  display: flex;
+  gap: 20px;
+}
+button {
+  background-color: transparent;
+}
+#sign {
+  padding: 17px 35px;
+  border-radius: 10px;
+  background-color: #4f46ba;
+  color: #fff;
+}
+
+main {
+  width: 1037px;
+  margin-bottom: 65px;
+  display: flex;
+  gap: 35px;
+  align-items: flex-start;
+}
+
+.info h1 {
+  width: 646px;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 74px;
+  letter-spacing: -0.03em;
+  margin-bottom: 19px;
+}
+
+.info p {
+  width: 446px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  margin-bottom: 47px;
+}
+
+.but {
+  width: 356px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background-color: #000;
+}
+
+#play {
+  display: flex;
+  gap: 5px;
+}
+#play_back {
+  background-color: #22d497;
+  padding: 17px 18px;
+  border-radius: 47px;
+}
+.but a {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #3734a9;
+}
+
+#see {
+  padding: 15px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background-color: #3734a9;
+  border-radius: 47px;
+}
+
+.regst {
+  margin-top: 33px;
+}
+
+.regst h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #3734a9;
+  margin-bottom: 22px;
+}
+
+input {
+  width: 356px;
+  border-radius: 5px;
+  border: 1px;
+  border-color: #dfe4f1;
+  margin-bottom: 24px;
+}
+
+input::placeholder {
+  padding: 16px 0 14px 21px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  opacity: 40%;
+}
+
+.sponser h3 {
+  margin-top: 60px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30.05px;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.believ {
+  width: 700px;
+  margin-bottom: 56px;
+}
+
+.believ h3 {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  margin-bottom: 13px;
+}
+
+.believ p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  margin-bottom: 33px;
+}
+
+.believ button {
+  padding: 8px 102px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background-color: #3734a9;
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  gap: 85px;
+  margin-bottom: 114px;
+}
+
+.card_block h4 {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.card_block p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #757095;
+}
+
+footer {
+  background-color: #f8f9fd;
+  border-radius: 10px;
+  display: flex;
+  gap: 160px;
+  padding: 42px 70px;
+}
+
+footer h3 {
+  width: 561px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+}
+
+footer button {
+  background-color: #4f46ba;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18.75px;
+}
