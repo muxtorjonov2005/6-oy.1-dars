@@ -54,10 +54,10 @@ function App() {
       </div>
 
       <div>
-        <div className="believe_container container">
+        <div className="believ_container container">
         <h3>Believing neglected so so allowance</h3>
         <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own.</p>
-        <button>We so opinion friends me message as delight.</button>
+        <a>We so opinion friends me message as delight.</a>
         </div>
       </div>
 
@@ -84,7 +84,7 @@ function App() {
       <footer>
         <div className="footer_container container">
         <h3>Track your crytpo portfolio on the best way possible</h3>
-        <button>Check It Out</button>
+        <a>Check It Out</a>
         </div>
       </footer>
 

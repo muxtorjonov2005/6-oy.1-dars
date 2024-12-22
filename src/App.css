@@ -247,7 +247,8 @@ line-height: 30px;
   margin-bottom: 13px;
 }
 
-.believ p {
+.believ_container p {
+  width: 604px;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -256,21 +257,30 @@ line-height: 30px;
   margin-bottom: 33px;
 }
 
-.believ button {
+.believ_container a {
   padding: 8px 102px;
   font-size: 17px;
   font-weight: 400;
   line-height: 30px;
-  letter-spacing: -0.02em;
+  letter-spacing: -2%;
   color: #fff;
   background-color: #3734a9;
   border-radius: 10px;
 }
 
-.card {
+.believ_container a:hover {
+  background-color: #4a45d5;
+}
+
+.card_container {
+  width: 1043px;
   display: flex;
   gap: 85px;
   margin-bottom: 114px;
+}
+
+.card_block {
+  width: 280px;
 }
 
 .card_block h4 {
@@ -278,7 +288,7 @@ line-height: 30px;
   font-size: 16px;
   font-weight: 800;
   line-height: 30px;
-  letter-spacing: -0.03em;
+  letter-spacing: -3%;
 }
 
 .card_block p {
@@ -289,15 +299,17 @@ line-height: 30px;
   color: #757095;
 }
 
-footer {
+.footer_container {
   background-color: #f8f9fd;
   border-radius: 10px;
   display: flex;
+  align-items: center;
   gap: 160px;
   padding: 42px 70px;
+  margin-bottom: 20px;
 }
 
-footer h3 {
+.footer_container h3 {
   width: 561px;
   font-size: 36px;
   font-weight: 800;
@@ -305,10 +317,15 @@ footer h3 {
   letter-spacing: -0.03em;
 }
 
-footer button {
+.footer_container a {
   background-color: #4f46ba;
   border-radius: 10px;
+  padding: 20px 44px;
   color: #fff;
   font-size: 16px;
   line-height: 18.75px;
+}
+
+.footer_container a:hover {
+  background-color: #3734a9;
 }
